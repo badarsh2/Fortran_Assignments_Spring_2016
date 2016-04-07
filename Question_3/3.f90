@@ -4,7 +4,7 @@
 program matmult
 	implicit none
 ! Dynamic allocaiton
-INTEGER, ALLOCATABLE, DIMENSION(:,:):: A, B, C
+DOUBLE PRECISION, ALLOCATABLE, DIMENSION(:,:):: A, B, C
 integer :: A_rowsize, A_colsize, B_rowsize, B_colsize, i, j, k, ok
 
 ! Reading matrix A row and column size

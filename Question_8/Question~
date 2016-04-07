@@ -1,0 +1,1 @@
+Q(i,j) = cos(theta)*delta(i,j) + a(i)*a(j)*(1 - cos(theta) + epsilon (i,j,k)*a(k)*sin(theta)
